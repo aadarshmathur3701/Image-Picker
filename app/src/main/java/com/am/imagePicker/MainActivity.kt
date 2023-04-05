@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
             setContentView(binding.root)
         }
         binding.btnPickPhoto.setOnClickListener {
-            imagePicker.getImageFromCamera(this)
+            imagePicker.getImage(this)
         }
     }
 }
